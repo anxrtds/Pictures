@@ -4,6 +4,9 @@
 # Веб-галерея 2d-векторних зображень
 Тема. Зернові культури україни
 
+## Сторінка з картинками
+Сайт можна знайти [тут](https://anxrtds.github.io/Pictures/)
+
 ## Завантаження
 
 Якщо ви хочете отримати **тільки папку з картинками**, не завантажуючи весь репозиторій, клацніть [тут](https://download-directory.github.io/?url=https://github.com/anxrtds/Pictures/tree/main/assets/images&filename=pictures):
