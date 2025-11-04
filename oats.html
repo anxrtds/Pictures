@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title> Gallery </title>
+        <link rel="icon" href="assets/images/svg/sunflower.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="assets/css/gallery_style.css">
+    </head>
+    <body>
+        <div class="sider">
+            <div class="search">
+                <div class="search-box">
+                    <input type="text" placeholder="Search.." id="searchInput">
+                    <svg viewBox="0 0 18 18" class="search-icon" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M11.563 11.504l-.03.029-.03.031A4.984 4.984 0 018 13c-2.757 0-5-2.243-5-5s2.243-5 5-5c2.756 0 5 2.243 5 5a4.983 4.983 0 01-1.437 3.504m5.144 3.789l-3.103-3.103A6.963 6.963 0 0015 8c0-3.859-3.141-7-7-7-3.86 0-7 3.141-7 7s3.14 7 7 7a6.956 6.956 0 004.189-1.396l3.103 3.103a1.001 1.001 0 001.415-1.414"/>
+                    </svg>
+                    <ul id="searchResults" class="search-results"></ul>
+                </div>
+            </div>
+            <nav>
+            <ul class="toc">
+                <li class="section">
+                    <a id="s-1_mark" href="gallery.html#s-1.4"><span class="toc-text">
+                        <svg  viewBox="0 0 24 24" class="back-arrow" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 12a1 1 0 0 1-1 1H8.414l1.293 1.293a1 1 0 1 1-1.414 1.414l-3-3a1 1 0 0 1 0-1.414l3-3a1 1 0 0 1 1.414 1.414L8.414 11H18a1 1 0 0 1 1 1z"
+                             data-name="Left"/></svg>
+                        🖼️ Картинки</span></a>
+                <ul class="toc">
+                    <li><a id="s-1.1_mark" href="#s-1.1"><span class="toc-text">Гілочки овесу</span></a></li>
+                    <li><a id="s-1.2_mark" href="#s-1.2"><span class="toc-text">Пластівці</span></a></li>
+                </ul>
+                </li>
+            </ul>
+            </nav>
+        </div>
+        <main>
+        <div id="sentinel"></div>
+        <div class="sentinel" data-title="🖼️ Овес" id="s-1"></div>
+        <h1 id="page-header" aria-live="polite">🖼️ Овес</h1>
+    
+        <div class="centered-block">
+        
+          <div class="sentinel" data-title="Гілочки овесу" id="s-1.1"></div>
+          <section id="sec-1"><h2>Гілочки овесу</h2></section>
+          <a href="oats.html#s-1"><img src="assets/images/png/oats/oats.png" alt="Картинка овесу"/></a>
+          <p>Колосся вівса показує розміщення зерен у рослині; овес вирощують і як продовольчу, і як кормову культуру. Овес добре підходить для систем сівозміни й дає універсальну сировину.</p>
+          <hr>
+          <div class="sentinel" data-title="Пластівці" id="s-1.2"></div>
+          <section id="sec-2"><h2>Пластівці</h2></section>
+          <img src="assets/images/png/oats/oats_.png" alt="Картинка овесу"/>
+          <p>З вівса виготовляють вівсяні пластівці — поживний продукт, багатий на клітковину й мікроелементи. Пластівці використовують для каш, мюслів та дієтичного харчування.</p>
+          <div style="height: 200px;"></div> 
+        </div>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0"></script>
+      <script src="assets/js/gallery_script.js"></script>
+    </body>
+
+</html>
